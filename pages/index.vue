@@ -1,15 +1,15 @@
 <template>
   <div>
-  <topo></topo>
+  <typography></typography>
   </div>
 </template>
 
 <script>
-  import topo from '@/components/topo';
+  import typography from '@/components/typography';
 
   export default {
     components: {
-      topo
+      typography
     },
     data() {
       return {
