@@ -18,21 +18,6 @@
 
   <div class="example">
     <div class="title padding-left-20 color-primary">
-      <h3>Shadows</h3>
-    </div>
-    <div class="container wrap">
-      <div class="box-shadow text-center container justify-content-center align-items-center" v-for="x in shadows" :style="{ boxShadow: '0 ' + '0 ' + x.size + 'px ' + x.smooth + 'px ' +  'rgba(0,0,0,.1)'}">
-        <div class="text container column">
-          <strong>{{x.name}}</strong>
-          <small style="font-size: 10px">box-shadow: 0 0 {{x.size}}px {{x.smooth}}px rgba(0,0,0,.1)</small>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="example">
-    <div class="title padding-left-20 color-primary">
       <h3>Gradients</h3>
     </div>
     <div class="container wrap">
@@ -46,6 +31,21 @@
       </div>
     </div>
   </div>
+
+  <div class="example">
+    <div class="title padding-left-20 color-primary">
+      <h3>Shadows</h3>
+    </div>
+    <div class="container wrap">
+      <div class="box-shadow text-center container justify-content-center align-items-center" v-for="x in shadows" :style="{ boxShadow: '0 ' + '0 ' + x.size + 'px ' + x.smooth + 'px ' +  'rgba(0,0,0,.1)'}">
+        <div class="text container column">
+          <strong>{{x.name}}</strong>
+          <small style="font-size: 10px">box-shadow: 0 0 {{x.size}}px {{x.smooth}}px rgba(0,0,0,.1)</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 </div>
 </template>
@@ -82,24 +82,22 @@ export default {
         {
           name: 'White',
           hex: '#ffffff'
-        },
-      ],
+        }],
       shadows: [{
-          name: 'small',
+          name: 'Small',
           size: 10,
           smooth: 0
         },
         {
-          name: 'medium',
+          name: 'Medium',
           size: 20,
           smooth: 5
         },
         {
-          name: 'large',
+          name: 'Large',
           size: 30,
           smooth: 10
-        }
-      ],
+        }],
       gradients: [{
           name: 'Primary',
           color: '#50fa7b',
@@ -114,8 +112,7 @@ export default {
           name: 'Light',
           color: '#dddddd',
           color2: '#cccccc'
-        }
-      ]
+        }]
     }
   }
 }
@@ -125,59 +122,51 @@ export default {
 .box-colors {
     flex-basis: 130px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
-    border-radius: 4px;
     box-sizing: border-box;
-    padding-bottom: 10px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: 0.3s;
+    padding-top: 0 !important;
     .box {
         width: 130px;
         height: 100px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
     }
     .text {
         padding-top: 10px;
-        padding-bottom: 10px;
     }
     &:hover {
         box-shadow: 0 10px 10px 0 rgba(0,0,0,.1);
         transform: translateY(-10px);
     }
 }
+
 .box-shadow {
-    flex-basis: 130px;
-    height: 130px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: 0.3s;
-    padding: 20px;
-    box-sizing: border-box;
+    flex-basis: 300px;
+    flex-grow: 1;
     &:hover {
         box-shadow: 0 10px 10px 0 rgba(0,0,0,.1);
         transform: translateY(-10px);
     }
 }
+
 .box-gradient {
     flex-basis: 300px;
     flex-grow: 1;
-    height: 130px;
-    margin: 20px;
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    &:hover {
+        box-shadow: 0 10px 10px 0 rgba(0,0,0,.1);
+        transform: translateY(-10px);
+    }
+}
+
+.box-colors,
+.box-gradient,
+.box-shadow {
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     transition: 0.3s;
     padding: 20px;
     box-sizing: border-box;
-    color: #fff;
-    &:hover {
-        box-shadow: 0 10px 10px 0 rgba(0,0,0,.1);
-        transform: translateY(-10px);
-    }
+    margin: 20px;
+    min-height: 130px;
 }
 </style>

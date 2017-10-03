@@ -46,7 +46,11 @@
   font-weight: normal;
   src: local('Circular Std Medium Italic'), url('~assets/fonts/circular/CircularStd-MediumItalic.woff') format('woff');
 }
+@import 'base/text';
 @import 'base/base';
+@import 'base/colors';
+@import 'base/shadow';
+@import 'base/space';
 
 [v-cloak] {
   display: none;

@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Circular Std Black';
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 65px;
+}
+
+h2 {
+  font-size: 43px;
+  line-height: 53px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+b,
+strong {
+  font-weight: bolder;
+  font-family: 'Circular Std Black';
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.font-regular {
+  font-family: 'Circular Std Medium';
+}
+
+.font-light {
+  font-family: 'Circular Std Book';
+}
+
+.font-italic,
+i {
+  font-family: 'Circular Std Book Italic';
+}
+
+.font-semibold {
+  font-family: 'Circular Std Bold';
+}
+
+.font-bold {
+  font-family: 'Circular Std Black';
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}

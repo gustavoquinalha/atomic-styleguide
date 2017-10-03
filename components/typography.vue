@@ -50,7 +50,6 @@
     </div>
   </div>
 
-
   <div class="example">
     <div class="title color-primary padding-left-20 ">
       <h3>Typography</h3>
@@ -144,7 +143,7 @@
     <div class="container-font-example container column">
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>b.</h4>
+          <h4>b.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <b>Almost before we knew it, we had left the ground.</b>
@@ -153,7 +152,7 @@
 
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>p.</h4>
+          <h4>p.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <p>Almost before we knew it, we had left the ground.</p>
@@ -162,7 +161,7 @@
 
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>small.</h4>
+          <h4>small.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <small>Almost before we knew it, we had left the ground.</small>
@@ -171,7 +170,7 @@
 
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>span.</h4>
+          <h4>span.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <span>Almost before we knew it, we had left the ground.</span>
@@ -180,7 +179,7 @@
 
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>i.</h4>
+          <h4>i.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <i>Almost before we knew it, we had left the ground.</i>
@@ -189,7 +188,7 @@
 
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>u.</h4>
+          <h4>u.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <u>Almost before we knew it, we had left the ground.</u>
@@ -198,7 +197,7 @@
 
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
-              <h4>strike.</h4>
+          <h4>strike.</h4>
         </div>
         <div class="flex-basis-400 flex-grow-2">
           <strike>Almost before we knew it, we had left the ground.</strike>
@@ -206,7 +205,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="">
     <div class="padding-left-20 title color-primary">
@@ -231,7 +229,6 @@
       </div>
     </div>
   </div>
-
 
 </div>
 </template>
