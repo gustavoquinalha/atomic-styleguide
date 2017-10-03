@@ -9,3 +9,7 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+.DS_Store
+**/*/.DS_Store
+**/**/*.DS_Store

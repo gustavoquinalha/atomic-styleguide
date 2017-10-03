@@ -3,7 +3,7 @@
 
   <div class="example">
     <titleComponent>
-       <span slot="title">Grid</span>
+      <span slot="title">Grid</span>
     </titleComponent>
     <div class="container">
       <div class="box-grid" v-for="(x, index) in 12">
@@ -31,12 +31,12 @@ export default {
 
 <style lang="scss" scoped>
 .box-grid {
-  background: #e2e2e2;
-  margin: 5px;
-  min-height: 300px;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: #e2e2e2;
+    margin: 5px;
+    min-height: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>

@@ -21,26 +21,27 @@ export default {
 
 <style lang="scss" scoped>
 .block-oct {
-  position: fixed;
-  top: 10px;
-  right: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
     .oct {
-      transition: .3s;
-      img {
-        width: 40px
-      }
-      &:hover {
-        transform: scale(1.2, 1.2) rotate(10deg);
-      }
+        transition: 0.3s;
+        img {
+            width: 40px;
+        }
+        &:hover {
+            transform: scale(1.2, 1.2) rotate(10deg);
+        }
     }
 }
+
 @media screen and (max-width: 480px) {
-  .block-oct {
-      .oct {
-        img {
-          width: 30px
+    .block-oct {
+        .oct {
+            img {
+                width: 30px;
+            }
         }
-      }
-  }
+    }
 }
 </style>

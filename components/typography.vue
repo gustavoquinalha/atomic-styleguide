@@ -3,8 +3,8 @@
 
   <div class="example">
     <titleComponent>
-		<span slot="title">Calligraphy</span>
-	</titleComponent>
+      <span slot="title">Calligraphy</span>
+    </titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container wrap">
         <div class="flex-basis-100 flex-grow-1">
@@ -52,8 +52,8 @@
 
   <div class="example">
     <titleComponent>
-		<span slot="title">Typography</span>
-	</titleComponent>
+      <span slot="title">Typography</span>
+    </titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
@@ -137,9 +137,9 @@
   </div>
 
   <div class="example">
-     <titleComponent>
-		    <span slot="title">Paragraph</span>
-	   </titleComponent>
+    <titleComponent>
+      <span slot="title">Paragraph</span>
+    </titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
@@ -208,7 +208,7 @@
 
   <div class="">
     <titleComponent>
-       <span slot="title">Font align</span>
+      <span slot="title">Font align</span>
     </titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container wrap">
@@ -236,7 +236,6 @@
 <script>
 import titleComponent from '@/components/titleComponent'
 
-
 export default {
   name: 'topo',
   components: {
@@ -252,18 +251,17 @@ export default {
 .container-font-example {
     padding-top: 20px;
     .font-example {
-        // border: 1px solid rgba(0,0,0,.1);
         padding: 20px;
         box-sizing: border-box;
         margin-bottom: 20px;
     }
 }
+
 .box-font {
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 4px;
     padding: 20px;
     box-sizing: border-box;
     margin: 5px;
-    // margin-bottom: 20px;
 }
 </style>

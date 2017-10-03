@@ -16,29 +16,25 @@ export default {
 
     }
   },
-  // props: {
-	// 	border: {
-	// 		type: Boolean
-	// 	}
-	// },
+  props: {},
 }
 </script>
 
 <style lang="scss" scoped>
 .title {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
     h2 {
-      position: relative;
-      &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        background: #50fa7b;
-        width: 120px;
-        height: 10px;
-        left: 0;
-        bottom: -15px
-      }
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            background: #50fa7b;
+            width: 120px;
+            height: 10px;
+            left: 0;
+            bottom: -15px;
+        }
     }
 }
 </style>

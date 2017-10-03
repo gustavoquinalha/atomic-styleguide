@@ -3,7 +3,7 @@
 
   <div class="example">
     <titleComponent>
-       <span slot="title">Spaces</span>
+      <span slot="title">Spaces</span>
     </titleComponent>
     <div class="container wrap padding-top-20 border-box padding-20">
       <div class="flex-basis-300 flex-grow-1 container column container-space">

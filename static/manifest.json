@@ -37,11 +37,11 @@
       "density": "4.0"
     }
   ],
-  "name": "Clinify",
+  "name": "Atomic Style Guide",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
-  "short_name": "Clinify",
-  "description": "Clinify",
-  "background_color": "#0081FF"
+  "short_name": "AtomicStyleGuide",
+  "description": "Atomic Style Guide",
+  "background_color": "#000"
 }
