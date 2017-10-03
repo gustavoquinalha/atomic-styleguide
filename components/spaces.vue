@@ -5,59 +5,65 @@
     <div class="title padding-left-20 color-primary">
       <h3>Spaces</h3>
     </div>
-    <div class="container wrap margin-left-20 padding-top-20">
+    <div class="container wrap padding-top-20 border-box padding-20">
       <div class="flex-basis-300 flex-grow-1 container column container-space">
         <strong>Margin (left, right, top, bottom)</strong>
-        <div class="space">
+        <div class="bspace">
           without margin
         </div>
 
-        <div class="space margin-left-10">
+        <div class="bspace margin-left-10">
           margin-left-10
         </div>
 
-        <div class="space margin-left-20">
+        <div class="bspace margin-left-20">
           margin-left-20
         </div>
 
-        <div class="space margin-left-30">
+        <div class="bspace margin-left-30">
           margin-left-30
         </div>
 
-        <div class="space margin-left-40">
+        <div class="bspace margin-left-40">
           margin-left-40
         </div>
 
-        <div class="space margin-left-50">
+        <div class="bspace margin-left-50">
           margin-left-50
         </div>
       </div>
 
       <div class="flex-basis-300 flex-grow-1 container column container-space">
         <strong>Padding (left, right, top, bottom)</strong>
-        <div class="space">
+        <div class="bspace">
           without padding
         </div>
 
-        <div class="space padding-left-10">
+        <div class="bspace padding-left-10">
           padding-left-50
         </div>
 
-        <div class="space padding-left-20">
+        <div class="bspace padding-left-20">
           padding-left-50
         </div>
 
-        <div class="space padding-left-30">
+        <div class="bspace padding-left-30">
           padding-left-50
         </div>
 
-        <div class="space padding-left-40">
+        <div class="bspace padding-left-40">
           padding-left-50
         </div>
 
-        <div class="space padding-left-50">
+        <div class="bspace padding-left-50">
           padding-left-50
         </div>
+      </div>
+    </div>
+
+    <div class="container wrap border-box margin-20 container-space">
+      <div class="bspace space">
+        <strong>width 90% margin 0 auto</strong>
       </div>
     </div>
 
@@ -81,12 +87,15 @@ export default {
 .container-space {
   border-left: 5px solid #000;
   margin-bottom: 20px;
-  .space {
+  .bspace {
     margin-bottom: 5px;
     border-left: 2px solid #50fa7b;
-    font-size: 10px;
+    font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .bspace.space {
+    border-right: 2px solid #50fa7b;
   }
 }
 </style>
