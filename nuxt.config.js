@@ -8,19 +8,19 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'ATOMIC Style Guide intro' },
-      { name: 'author', content: 'Helpy' },
+      { name: 'author', content: 'gustavoquinalha' },
       { name: 'robots', content: 'index/follow' },
       { name: 'googlebot', content: 'index/follow' },
       // google+
       { itemprop: 'name', content: 'ATOMIC Style Guide' },
       { itemprop: 'description', content: 'Description ATOMIC Style Guide' },
-      { itemprop: 'image', content: 'https://github.com/gustavoquinalha/styleguide-kit/img/my-logo.png' },
+      { itemprop: 'image', content: '/intro.png' },
       // facebook
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'ATOMIC Style Guide' },
-      { property: 'og:url', content: 'https://github.com/gustavoquinalha/styleguide-kit/' },
+      { property: 'og:url', content: 'https://atomic-styleguide.herokuapp.com/' },
       { property: 'og:site_name', content: 'ATOMIC Style Guide' },
-      { property: 'og:image', content: 'https://github.com/gustavoquinalha/styleguide-kit/img/my-logo.png' },
+      { property: 'og:image', content: '/intro.png' },
       { property: 'og:description', content: 'Description ATOMIC Style Guide' },
       { property: 'og:locale', content: 'pt_Br' },
       { property: 'fb:app_id', content: '122670998365518' },
@@ -29,15 +29,15 @@ module.exports = {
       { name: 'twitter:card', content: 'Summary' },
       { name: 'twitter:title', content: 'ATOMIC Style Guide' },
       { name: 'twitter:description', content: 'ATOMIC Style Guide' },
-      { name: 'twitter:creator', content: 'https://github.com/gustavoquinalha/styleguide-kit' },
-      { name: 'twitter:image', content: 'https://github.com/gustavoquinalha/styleguide-kit/img/my-logo.png' },
+      { name: 'twitter:creator', content: 'gustavoquinalha' },
+      { name: 'twitter:image', content: '/intro.png' },
       // android
-      { name: 'msapplication-TileColor', content: '#0081FF' },
+      { name: 'msapplication-TileColor', content: '#000000' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
-      { name: 'theme-color', content: '#0081FF' }
+      { name: 'theme-color', content: '#000000' }
     ],
     link: [
-      { rel: 'sitemap', type: 'application/xml', content: 'https://github.com/gustavoquinalha/styleguide-kit/sitemap.xml' },
+      { rel: 'sitemap', type: 'application/xml', content: 'https://atomic-styleguide.herokuapp.com/sitemap.xml' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'apple-touch-icon', sizes: '57x57', href: '/icons/apple-icon-57x57.png' },
@@ -49,8 +49,8 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes: '144x144', href: '/icons/apple-icon-144x144.png' },
       { rel: 'apple-touch-icon', sizes: '152x152', href: '/icons/apple-icon-152x152.png' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/apple-icon-180x180.png' },
-      { rel: 'base', href: 'https://github.com/gustavoquinalha/styleguide-kit' },
-      { rel: 'canonical', href: 'https://github.com/gustavoquinalha/styleguide-kit' }
+      { rel: 'base', href: 'https://atomic-styleguide.herokuapp.com/' },
+      { rel: 'canonical', href: 'https://atomic-styleguide.herokuapp.com/' }
     ],
     script: [{
       // src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'
