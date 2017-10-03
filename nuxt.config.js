@@ -14,13 +14,13 @@ module.exports = {
       // google+
       { itemprop: 'name', content: 'ATOMIC Style Guide' },
       { itemprop: 'description', content: 'Description ATOMIC Style Guide' },
-      { itemprop: 'image', content: '/intro.png' },
+      { itemprop: 'image', content: 'https://i.imgur.com/iRhYwox.png' },
       // facebook
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'ATOMIC Style Guide' },
       { property: 'og:url', content: 'https://atomic-styleguide.herokuapp.com/' },
       { property: 'og:site_name', content: 'ATOMIC Style Guide' },
-      { property: 'og:image', content: '/intro.png' },
+      { property: 'og:image', content: 'https://i.imgur.com/iRhYwox.png' },
       { property: 'og:description', content: 'Description ATOMIC Style Guide' },
       { property: 'og:locale', content: 'pt_Br' },
       { property: 'fb:app_id', content: '122670998365518' },
@@ -30,7 +30,7 @@ module.exports = {
       { name: 'twitter:title', content: 'ATOMIC Style Guide' },
       { name: 'twitter:description', content: 'ATOMIC Style Guide' },
       { name: 'twitter:creator', content: 'gustavoquinalha' },
-      { name: 'twitter:image', content: '/intro.png' },
+      { name: 'twitter:image', content: 'https://i.imgur.com/iRhYwox.png' },
       // android
       { name: 'msapplication-TileColor', content: '#000000' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
