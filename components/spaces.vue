@@ -69,8 +69,6 @@
 
   </div>
 
-
-
 </div>
 </template>
 
@@ -85,17 +83,17 @@ export default {
 
 <style lang="scss" scoped>
 .container-space {
-  border-left: 5px solid #000;
-  margin-bottom: 20px;
-  .bspace {
-    margin-bottom: 5px;
-    border-left: 2px solid #50fa7b;
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .bspace.space {
-    border-right: 2px solid #50fa7b;
-  }
+    border-left: 5px solid #000;
+    margin-bottom: 20px;
+    .bspace {
+        margin-bottom: 5px;
+        border-left: 2px solid #50fa7b;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bspace.space {
+        border-right: 2px solid #50fa7b;
+    }
 }
 </style>

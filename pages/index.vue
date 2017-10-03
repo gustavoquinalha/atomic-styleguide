@@ -2,6 +2,7 @@
   <div>
   <colors></colors>
   <spaces></spaces>
+  <grid></grid>
   <typography></typography>
   </div>
 </template>
@@ -10,12 +11,14 @@
   import colors from '@/components/colors';
   import typography from '@/components/typography';
   import spaces from '@/components/spaces';
+  import grid from '@/components/grid';
 
   export default {
     components: {
       typography,
       colors,
-      spaces
+      spaces,
+      grid
     },
     data() {
       return {
