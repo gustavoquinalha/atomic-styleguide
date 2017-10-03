@@ -2,9 +2,10 @@
 <div>
 
   <header>
-    <div class="header container align-items-center justify-content-center">
-      <div class="logo">
-        <img src="~/assets/images/logo2.svg" class="logo" alt="">
+    <div class="header container column align-items-center justify-content-center">
+      <div class="block text-center">
+        <img src="~/assets/images/logo1.svg" class="logo" alt="">
+        <p><blockquote>"We’re not designing pages, we’re designing systems of components."<span> -Stephen Hay</span></blockquote></p>
       </div>
     </div>
   </header>
@@ -27,8 +28,19 @@ export default {
 .header {
   min-height: 100vh;
   width: 100%;
-    .logo {
-      width: 300px
+    .block {
+      width: 500px;
+      max-width: 90%;
+        img {
+          width: 300px;
+          max-width: 90%;
+          padding-bottom: 20px;
+        }
+        blockquote {
+          span {
+            opacity: .5
+          }
+        }
     }
 }
 </style>

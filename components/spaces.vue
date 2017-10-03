@@ -83,7 +83,7 @@ export default {
 
 <style lang="scss" scoped>
 .container-space {
-    border-left: 5px solid #000;
+    // border-left: 5px solid #000;
     margin-bottom: 20px;
     .bspace {
         margin-bottom: 5px;
