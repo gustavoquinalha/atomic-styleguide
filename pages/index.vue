@@ -1,5 +1,6 @@
 <template>
   <div>
+  <topo></topo>
   <colors></colors>
   <spaces></spaces>
   <grid></grid>
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+  import topo from '@/components/topo';
   import colors from '@/components/colors';
   import typography from '@/components/typography';
   import spaces from '@/components/spaces';
@@ -15,6 +17,7 @@
 
   export default {
     components: {
+      topo,
       typography,
       colors,
       spaces,
