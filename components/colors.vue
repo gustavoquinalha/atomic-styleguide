@@ -2,9 +2,9 @@
 <div class="size margin">
 
   <div class="example">
-    <div class="title padding-left-20 color-primary">
-      <h3>Colors</h3>
-    </div>
+    <titleComponent>
+       <span slot="title">Colors</span>
+    </titleComponent>
     <div class="container wrap">
       <div class="box-colors text-center container column align-items-center" v-for="x in colors">
         <div class="box" :style="{ background: x.hex }"></div>
@@ -17,9 +17,9 @@
   </div>
 
   <div class="example">
-    <div class="title padding-left-20 color-primary">
-      <h3>Gradients</h3>
-    </div>
+    <titleComponent>
+       <span slot="title">Gradients</span>
+    </titleComponent>
     <div class="container column wrap">
       <!-- background: linear-gradient(10deg, #333, #222); -->
       <div v-for="x in gradients" class="flex-grow-1">
@@ -33,9 +33,9 @@
   </div>
 
   <div class="example">
-    <div class="title padding-left-20 color-primary">
-      <h3>Shadows</h3>
-    </div>
+    <titleComponent>
+       <span slot="title">Shadows</span>
+    </titleComponent>
     <div class="container wrap">
       <div class="box-shadow text-center container justify-content-center align-items-center" v-for="x in shadows" :style="{ boxShadow: '0 ' + '0 ' + x.size + 'px ' + x.smooth + 'px ' +  'rgba(0,0,0,.1)'}">
         <div class="text container column">
@@ -51,7 +51,13 @@
 </template>
 
 <script>
+import titleComponent from '@/components/titleComponent'
+
 export default {
+  name: 'colors',
+  components: {
+    titleComponent
+  },
   name: 'colors',
   data() {
     return {

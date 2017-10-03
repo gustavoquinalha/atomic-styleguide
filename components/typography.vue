@@ -2,9 +2,9 @@
 <div class="size margin">
 
   <div class="example">
-    <div class="title padding-left-20 color-primary">
-      <h3>Font family</h3>
-    </div>
+    <titleComponent>
+		<span slot="title">Calligraphy</span>
+	</titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container wrap">
         <div class="flex-basis-100 flex-grow-1">
@@ -51,9 +51,9 @@
   </div>
 
   <div class="example">
-    <div class="title color-primary padding-left-20 ">
-      <h3>Typography</h3>
-    </div>
+    <titleComponent>
+		<span slot="title">Typography</span>
+	</titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
@@ -137,9 +137,9 @@
   </div>
 
   <div class="example">
-    <div class="title color-primary padding-left-20 ">
-      <h3>Paragraph</h3>
-    </div>
+     <titleComponent>
+		    <span slot="title">Paragraph</span>
+	   </titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container">
         <div class="flex-basis-100 flex-grow-1">
@@ -207,9 +207,9 @@
   </div>
 
   <div class="">
-    <div class="padding-left-20 title color-primary">
-      <h3>Font align</h3>
-    </div>
+    <titleComponent>
+       <span slot="title">Font align</span>
+    </titleComponent>
     <div class="container-font-example container column">
       <div class="font-example container wrap">
         <div class="flex-basis-400 flex-grow-3 container wrap justify-content-center align-items-center">
@@ -234,8 +234,14 @@
 </template>
 
 <script>
+import titleComponent from '@/components/titleComponent'
+
+
 export default {
   name: 'topo',
+  components: {
+    titleComponent
+  },
   data() {
     return {}
   }

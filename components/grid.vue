@@ -2,9 +2,9 @@
 <div class="size margin">
 
   <div class="example">
-    <div class="title padding-left-20 color-primary">
-      <h3>Grid</h3>
-    </div>
+    <titleComponent>
+       <span slot="title">Grid</span>
+    </titleComponent>
     <div class="container">
       <div class="box-grid" v-for="(x, index) in 12">
         {{index + 1}}
@@ -16,7 +16,12 @@
 </template>
 
 <script>
+import titleComponent from '@/components/titleComponent'
+
 export default {
+  components: {
+    titleComponent
+  },
   name: 'grid',
   data() {
     return {}

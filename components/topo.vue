@@ -29,14 +29,15 @@ export default {
   min-height: 100vh;
   width: 100%;
     .block {
-      width: 500px;
+      width: 600px;
       max-width: 90%;
         img {
-          width: 300px;
+          width: 400px;
           max-width: 90%;
           padding-bottom: 20px;
         }
         blockquote {
+          font-size: 20px;
           span {
             opacity: .5
           }

@@ -2,9 +2,9 @@
 <div class="size margin">
 
   <div class="example">
-    <div class="title padding-left-20 color-primary">
-      <h3>Spaces</h3>
-    </div>
+    <titleComponent>
+       <span slot="title">Spaces</span>
+    </titleComponent>
     <div class="container wrap padding-top-20 border-box padding-20">
       <div class="flex-basis-300 flex-grow-1 container column container-space">
         <strong>Margin (left, right, top, bottom)</strong>
@@ -73,7 +73,12 @@
 </template>
 
 <script>
+import titleComponent from '@/components/titleComponent'
+
 export default {
+  components: {
+    titleComponent
+  },
   name: 'spaces',
   data() {
     return {}
