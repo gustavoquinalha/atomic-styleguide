@@ -20,9 +20,9 @@
     <div class="title padding-left-20 color-primary">
       <h3>Gradients</h3>
     </div>
-    <div class="container wrap">
+    <div class="container column wrap">
       <!-- background: linear-gradient(10deg, #333, #222); -->
-      <div v-for="x in gradients" class="flex-basis-300 flex-grow-1">
+      <div v-for="x in gradients" class="flex-grow-1">
         <div class="box-gradient text-center container justify-content-center align-items-center" :style="{background: 'linear-gradient(to right,' + x.color + ',' + x.color2 + ')'}">
           <div class="text container column">
             <strong>{{x.name}}</strong>
@@ -140,6 +140,7 @@ export default {
 .box-shadow {
     flex-basis: 300px;
     flex-grow: 1;
+    height: 200px;
     &:hover {
         box-shadow: 0 10px 10px 0 rgba(0,0,0,.1);
         transform: translateY(-10px);

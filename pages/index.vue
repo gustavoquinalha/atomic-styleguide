@@ -3,10 +3,10 @@
   <octocat></octocat>
   <topo></topo>
 
-  <colors></colors>
-  <spaces></spaces>
-  <grid></grid>
   <typography></typography>
+  <colors></colors>
+  <grid></grid>
+  <spaces></spaces>
 
   <rodape></rodape>
   </div>
