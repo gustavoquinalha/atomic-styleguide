@@ -4,6 +4,7 @@
   <octocat></octocat>
   <topo></topo>
 
+  <buttons></buttons>
   <typography></typography>
   <colors></colors>
   <grid></grid>
@@ -22,6 +23,7 @@ import colors from '@/components/colors';
 import typography from '@/components/typography';
 import spaces from '@/components/spaces';
 import grid from '@/components/grid';
+import buttons from '@/components/buttons';
 
 import rodape from '@/components/rodape';
 
@@ -33,7 +35,8 @@ export default {
     colors,
     spaces,
     grid,
-    rodape
+    rodape,
+    buttons
   },
   data() {
     return {}
