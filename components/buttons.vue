@@ -12,7 +12,7 @@
           <h4>Value</h4>
         </div>
         <div class="esp container align-items-center">
-          <atomic-button value="Digite seu texto" width="200px"></atomic-button>
+          <atomic-button value="Digite seu texto"></atomic-button>
         </div>
         <div class="ex-btn">
           <p>value="Digite seu texto"</p>
@@ -53,7 +53,7 @@
           <h4>Color</h4>
         </div>
         <div class="esp container align-items-center">
-          <atomic-button value="color: purple" color="purple" width="150px"></atomic-button>
+          <atomic-button value="color: purple" color="purple"></atomic-button>
         </div>
         <div class="ex-btn">
           <p>color="purple"</p>
@@ -65,7 +65,7 @@
           <h4>Font-color</h4>
         </div>
         <div class="esp container align-items-center">
-          <atomic-button value="color: purple" color="purple" font-color="#fff" width="150px"></atomic-button>
+          <atomic-button value="color: purple" color="purple" font-color="#fff"></atomic-button>
         </div>
         <div class="ex-btn">
           <p>color="purple" font-color="#fff"</p>
@@ -74,7 +74,7 @@
 
       <div class="container column esp flex-grow-1">
         <div class="subtitle">
-          <h4>border-radius</h4>
+          <h4>Border-radius</h4>
         </div>
         <div class="esp container align-items-center">
           <atomic-button value="Border Radius" border-radius="30px"></atomic-button>
@@ -84,29 +84,17 @@
         </div>
       </div>
 
-
-
-
-      <!-- <div class="esp container">
-          <atomic-button value="Small" size="small"></atomic-button>
-          <atomic-button value="Small" size="small" type="primary"></atomic-button>
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>Width</h4>
         </div>
-
-        <div class="esp container">
-          <atomic-button value="Medium" size="medium"></atomic-button>
-          <atomic-button value="Medium" size="medium" type="danger" border-radius="10px"></atomic-button>
+        <div class="esp container align-items-center">
+          <atomic-button value="Width 300px" width="300px"></atomic-button>
         </div>
-
-        <div class="esp container">
-          <atomic-button value="Large" size="large"></atomic-button>
-          <atomic-button value="Large" size="large" type="primary"></atomic-button>
-          <atomic-button value="Large" size="large" color="#333" font-color="#fff" border-radius="30px" width="300px"></atomic-button>
-        </div> -->
-
-
-
-
-
+        <div class="ex-btn">
+          <p>width="300px"</p>
+        </div>
+      </div>
 
     </div>
 
@@ -138,7 +126,7 @@
             <td>Value</td>
             <td>String</td>
             <td></td>
-            <td></td>
+            <td>Ex: "Texto do botão"</td>
             <td>Texto dentro do botão</td>
           </tr>
 
@@ -181,6 +169,15 @@
             <td>Número + medida, Ex: (4px, 50%)</td>
             <td>Define o radius da borda</td>
           </tr>
+
+          <tr>
+            <td>Width</td>
+            <td>String</td>
+            <td></td>
+            <td>Número + medida, Ex: (200px, 100%)</td>
+            <td>Define o tamanho do botão</td>
+          </tr>
+
         </tbody>
       </table>
     </div>
@@ -209,7 +206,7 @@ export default {
 
 <style lang="scss" scoped>
 .ex-btn {
-  padding-bottom: 50px
+  padding-bottom: 100px
 }
 .esp {
     margin-bottom: 10px;
