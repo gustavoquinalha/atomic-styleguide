@@ -13,11 +13,11 @@
   vertical-align: middle;
   -webkit-appearance: none;
   border-radius: 3px;
-  margin: 2px;
+  // margin: 2px;
   box-sizing: border-box;
   max-width: 90%;
     &:hover {
-      background: #ccc;
+      filter: brightness(90%);
     }
 }
 .btn.btn-small {

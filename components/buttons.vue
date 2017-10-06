@@ -11,16 +11,20 @@
 
 
 
-        <div class="esp">
-          <atomic-button value="Botão 1" size="small" type="" color="" font-color="" border-radius="" width=""></atomic-button>
+        <div class="esp container">
+          <atomic-button value="Small" size="small" type="" color="" font-color="" border-radius="" width=""></atomic-button>
+          <atomic-button value="Small" size="small" type="primary" color="" font-color="" border-radius="" width=""></atomic-button>
         </div>
 
-        <div class="esp">
+        <div class="esp container">
           <atomic-button value="Medium" size="medium" type="" color="" font-color="" border-radius="" width=""></atomic-button>
+          <atomic-button value="Medium" size="medium" type="primary" color="" font-color="" border-radius="" width=""></atomic-button>
         </div>
 
-        <div class="esp">
-          <atomic-button value="Conferir " size="large" type="" color="" font-color="" border-radius="" width=""></atomic-button>
+        <div class="esp container">
+          <atomic-button value="Large" size="large" type="" color="" font-color="" border-radius="" width=""></atomic-button>
+          <atomic-button value="Large" size="large" type="primary" color="" font-color="" border-radius="" width=""></atomic-button>
+          <atomic-button value="Large" size="large" type="" color="#20a0ff" font-color="#fff" border-radius="" width="300px"></atomic-button>
         </div>
 
 
@@ -30,6 +34,16 @@
       </div>
 
     </div>
+
+
+    <div class="example">
+      example:
+      <div class="">
+        &lt;atomic-button value=&quot;Large&quot; size=&quot;large&quot; type=&quot;danger&quot; color=&quot;&quot; font-color=&quot;&quot; border-radius=&quot;&quot; width=&quot;&quot;&gt;&lt;/atomic-button&gt;
+      </div>
+    </div>
+
+
     <table>
       <tr>
         <th><h4>Attribute</h4></th>
