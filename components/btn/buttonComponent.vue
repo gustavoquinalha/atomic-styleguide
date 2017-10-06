@@ -1,14 +1,14 @@
 <template>
 <div>
-  <div class="" v-if="size === 'small'">
+  <div class="btn-space" v-if="size === 'small'">
     <button type="button" name="button" class="btn btn-small" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius, width: width  }">{{value}}</button>
   </div>
 
-  <div class="" v-if="size === 'medium'">
+  <div class="btn-space" v-if="size === 'medium'">
     <button type="button" name="button" class="btn" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius, width: width  }">{{value}}</button>
   </div>
 
-  <div class="" v-if="size === 'large'">
+  <div class="btn-space" v-if="size === 'large'">
     <button type="button" name="button" class="btn btn-large" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius, width: width }">{{value}}</button>
   </div>
 
@@ -28,31 +28,34 @@ export default {
 		},
 		size: {
 			type: String,
-      default: 'medium',
+      default: 'medium'
 		},
 		type: {
 			type: String,
-      default: 'default',
+      default: ''
 		},
 		color: {
 			type: String,
-      default: '#ddd',
+      default: ''
 		},
 		fontColor: {
 			type: String,
-      default: '#333',
+      default: ''
 		},
 		borderRadius: {
 			type: String,
-      default: '4px',
+      default: ''
 		},
 		width: {
 			type: String,
+      default: ''
 		}
 	}
 }
 </script>
 
 <style lang="scss" scoped>
-
+.btn-space {
+  width: 100%;
+}
 </style>

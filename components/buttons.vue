@@ -5,116 +5,185 @@
     <titleComponent>
       <span slot="title">Buttons</span>
     </titleComponent>
-    <div class="container wrap padding-top-20 border-box padding-20">
+    <div class="container column padding-top-20 border-box padding-20">
 
-      <div class="container column">
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>Value</h4>
+        </div>
+        <div class="esp container align-items-center">
+          <atomic-button value="Digite seu texto" width="200px"></atomic-button>
+        </div>
+        <div class="ex-btn">
+          <p>value="Digite seu texto"</p>
+        </div>
+      </div>
+
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>Size</h4>
+        </div>
+        <div class="esp container wrap align-items-center">
+          <atomic-button value="Small" size="small"></atomic-button>
+          <atomic-button value="Medium" size="medium"></atomic-button>
+          <atomic-button value="Large" size="large"></atomic-button>
+        </div>
+        <div class="ex-btn">
+            <p>size="large"</p>
+        </div>
+      </div>
+
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>Type</h4>
+        </div>
+        <div class="esp container wrap align-items-center">
+          <atomic-button value="Default" type=""></atomic-button>
+          <atomic-button value="Primary" type="primary"></atomic-button>
+          <atomic-button value="Danger" type="danger"></atomic-button>
+          <atomic-button value="Warning" type="warning"></atomic-button>
+        </div>
+        <div class="ex-btn">
+          <p>type="primary"</p>
+        </div>
+      </div>
+
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>Color</h4>
+        </div>
+        <div class="esp container align-items-center">
+          <atomic-button value="color: purple" color="purple" width="150px"></atomic-button>
+        </div>
+        <div class="ex-btn">
+          <p>color="purple"</p>
+        </div>
+      </div>
+
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>Font-color</h4>
+        </div>
+        <div class="esp container align-items-center">
+          <atomic-button value="color: purple" color="purple" font-color="#fff" width="150px"></atomic-button>
+        </div>
+        <div class="ex-btn">
+          <p>color="purple" font-color="#fff"</p>
+        </div>
+      </div>
+
+      <div class="container column esp flex-grow-1">
+        <div class="subtitle">
+          <h4>border-radius</h4>
+        </div>
+        <div class="esp container align-items-center">
+          <atomic-button value="Border Radius" border-radius="30px"></atomic-button>
+        </div>
+        <div class="ex-btn">
+          <p>border-radius="30px"</p>
+        </div>
+      </div>
 
 
 
-        <div class="esp container">
+
+      <!-- <div class="esp container">
           <atomic-button value="Small" size="small"></atomic-button>
           <atomic-button value="Small" size="small" type="primary"></atomic-button>
-          <atomic-button value="Small" size="small" type="danger" border-radius="20px"></atomic-button>
         </div>
 
         <div class="esp container">
           <atomic-button value="Medium" size="medium"></atomic-button>
-          <atomic-button value="Medium" size="medium" type="primary" border-radius="10px"></atomic-button>
+          <atomic-button value="Medium" size="medium" type="danger" border-radius="10px"></atomic-button>
         </div>
 
         <div class="esp container">
           <atomic-button value="Large" size="large"></atomic-button>
           <atomic-button value="Large" size="large" type="primary"></atomic-button>
-          <atomic-button value="Large" size="large" color="#20a0ff" font-color="#fff" border-radius="30px" width="300px"></atomic-button>
-        </div>
+          <atomic-button value="Large" size="large" color="#333" font-color="#fff" border-radius="30px" width="300px"></atomic-button>
+        </div> -->
 
 
 
 
 
-      </div>
 
     </div>
 
-    <!--
-    <div class="example">
-      example:
-      <div class="">
-        &lt;atomic-button value=&quot;Large&quot; size=&quot;large&quot; type=&quot;danger&quot; color=&quot;&quot; font-color=&quot;&quot; border-radius=&quot;&quot; width=&quot;&quot;&gt;&lt;/atomic-button&gt;
-      </div>
-    </div> -->
 
 
-    <table>
-      <thead>
-        <tr>
-          <th>
-            <h4>Attribute</h4>
-          </th>
-          <th>
-            <h4>Type</h4>
-          </th>
-          <th>
-            <h4>Default</h4>
-          </th>
-          <th>
-            <h4>Options</h4>
-          </th>
-          <th>
-            <h4>Description</h4>
-          </th>
-        </tr>
-      </thead>
-          <tbody>
-            <tr>
-              <td>Value</td>
-              <td>String</td>
-              <td></td>
-              <td></td>
-              <td>Texto dentro do botão</td>
-            </tr>
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h4>Attribute</h4>
+            </th>
+            <th>
+              <h4>Type</h4>
+            </th>
+            <th>
+              <h4>Default</h4>
+            </th>
+            <th>
+              <h4>Options</h4>
+            </th>
+            <th>
+              <h4>Description</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Value</td>
+            <td>String</td>
+            <td></td>
+            <td></td>
+            <td>Texto dentro do botão</td>
+          </tr>
 
-            <tr>
-              <td>Size</td>
-              <td>String</td>
-              <td>Medium</td>
-              <td>small / medium / large</td>
-              <td>Define a proporção do botão</td>
-            </tr>
+          <tr>
+            <td>Size</td>
+            <td>String</td>
+            <td>Medium</td>
+            <td>small / medium / large</td>
+            <td>Define a proporção do botão</td>
+          </tr>
 
-            <tr>
-              <td>Type</td>
-              <td>String</td>
-              <td>Default</td>
-              <td>primary / danger</td>
-              <td>Define o tipo</td>
-            </tr>
+          <tr>
+            <td>Type</td>
+            <td>String</td>
+            <td>Default</td>
+            <td>primary / danger</td>
+            <td>Define o tipo</td>
+          </tr>
 
-            <tr>
-              <td>Color</td>
-              <td>String</td>
-              <td>#ddd</td>
-              <td>Qualquer tipo de cor(red, #ff4455, rgb(23,154, 16))</td>
-              <td>Define a cor do background</td>
-            </tr>
+          <tr>
+            <td>Color</td>
+            <td>String</td>
+            <td>#ddd</td>
+            <td>Qualquer tipo de cor(red, #ff4455, rgb(23,154, 16))</td>
+            <td>Define a cor do background</td>
+          </tr>
 
-            <tr>
-              <td>Font-color</td>
-              <td>String</td>
-              <td>#333</td>
-              <td>Qualquer tipo de cor, Ex: (red, #ff4455, rgb(23,154, 16))</td>
-              <td>Define a cor da fonte</td>
-            </tr>
+          <tr>
+            <td>Font-color</td>
+            <td>String</td>
+            <td>#333</td>
+            <td>Qualquer tipo de cor, Ex: (red, #ff4455, rgb(23,154, 16))</td>
+            <td>Define a cor da fonte</td>
+          </tr>
 
-            <tr>
-              <td>Border-radius</td>
-              <td>String</td>
-              <td>4px</td>
-              <td>Número + medida, Ex: (4px, 50%)</td>
-              <td>Define o radius da borda</td>
-            </tr>
-          </tbody>
-    </table>
+          <tr>
+            <td>Border-radius</td>
+            <td>String</td>
+            <td>4px</td>
+            <td>Número + medida, Ex: (4px, 50%)</td>
+            <td>Define o radius da borda</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
 
   </div>
@@ -139,6 +208,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.ex-btn {
+  padding-bottom: 50px
+}
 .esp {
     margin-bottom: 10px;
 }
@@ -155,5 +227,15 @@ th {
 }
 tr:nth-child(even) {
     background-color: #ddd;
+}
+.table {
+  width: 1200px;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+table,
+tr,
+th,
+td {
 }
 </style>
