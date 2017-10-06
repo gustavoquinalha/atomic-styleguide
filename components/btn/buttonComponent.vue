@@ -1,11 +1,11 @@
 <template>
 <div>
   <div class="" v-if="size === 'small'">
-    <button type="button" name="button" class="btn btn-small" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius }">{{value}}</button>
+    <button type="button" name="button" class="btn btn-small" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius, width: width  }">{{value}}</button>
   </div>
 
   <div class="" v-if="size === 'medium'">
-    <button type="button" name="button" class="btn" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius }">{{value}}</button>
+    <button type="button" name="button" class="btn" :class="[type]" :style="{ background: color, color: fontColor, borderRadius: borderRadius, width: width  }">{{value}}</button>
   </div>
 
   <div class="" v-if="size === 'large'">

@@ -14,17 +14,18 @@
         <div class="esp container">
           <atomic-button value="Small" size="small" type="" color="" font-color="" border-radius="" width=""></atomic-button>
           <atomic-button value="Small" size="small" type="primary" color="" font-color="" border-radius="" width=""></atomic-button>
+          <atomic-button value="Small" size="small" type="danger" color="" font-color="" border-radius="20px" width=""></atomic-button>
         </div>
 
         <div class="esp container">
           <atomic-button value="Medium" size="medium" type="" color="" font-color="" border-radius="" width=""></atomic-button>
-          <atomic-button value="Medium" size="medium" type="primary" color="" font-color="" border-radius="" width=""></atomic-button>
+          <atomic-button value="Medium" size="medium" type="primary" color="" font-color="" border-radius="10px" width=""></atomic-button>
         </div>
 
         <div class="esp container">
           <atomic-button value="Large" size="large" type="" color="" font-color="" border-radius="" width=""></atomic-button>
           <atomic-button value="Large" size="large" type="primary" color="" font-color="" border-radius="" width=""></atomic-button>
-          <atomic-button value="Large" size="large" type="" color="#20a0ff" font-color="#fff" border-radius="" width="300px"></atomic-button>
+          <atomic-button value="Large" size="large" type="" color="#20a0ff" font-color="#fff" border-radius="30px" width="300px"></atomic-button>
         </div>
 
 
