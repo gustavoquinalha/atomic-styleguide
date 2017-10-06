@@ -4,9 +4,9 @@
   <octocat></octocat>
   <topo></topo>
 
-  <buttons></buttons>
   <typography></typography>
   <colors></colors>
+  <buttons></buttons>
   <grid></grid>
   <spaces></spaces>
 
