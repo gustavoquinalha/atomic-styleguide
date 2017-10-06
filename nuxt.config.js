@@ -53,14 +53,14 @@ module.exports = {
       { rel: 'canonical', href: 'https://atomic-styleguide.herokuapp.com/' }
     ],
     script: [{
-      // src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'
     }]
   },
 
   loading: { color: '#00ce8c', height: '5px' },
 
   plugins: [
-  // { src: '~plugins/wowjs.js', ssr: false }
+    { src: '~plugins/highlights.js', ssr: false }
   ],
 
   build: {

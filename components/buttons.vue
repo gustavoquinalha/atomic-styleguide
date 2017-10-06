@@ -15,7 +15,11 @@
           <atomic-button value="Digite seu texto"></atomic-button>
         </div>
         <div class="ex-btn">
-          <p>value="Digite seu texto"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="Digite seu texto"&gt;&lt;/atomic-button&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
@@ -29,7 +33,13 @@
           <atomic-button value="Large" size="large"></atomic-button>
         </div>
         <div class="ex-btn">
-            <p>size="large"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="Small" size="small"&gt;
+&lt; atomic-button value="Medium" size="medium"&gt;
+&lt; atomic-button value="Large" size="large"&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
@@ -44,7 +54,14 @@
           <atomic-button value="Warning" type="warning"></atomic-button>
         </div>
         <div class="ex-btn">
-          <p>type="primary"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="Default" type=""&gt;
+&lt; atomic-button value="Primary" type="primary"&gt;
+&lt; atomic-button value="Danger" type="danger"&gt;
+&lt; atomic-button value="Warning" type="warning"&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
@@ -56,7 +73,11 @@
           <atomic-button value="color: purple" color="purple"></atomic-button>
         </div>
         <div class="ex-btn">
-          <p>color="purple"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="color: purple" color="purple"&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
@@ -65,10 +86,14 @@
           <h4>Font-color</h4>
         </div>
         <div class="esp container align-items-center">
-          <atomic-button value="color: purple" color="purple" font-color="#fff"></atomic-button>
+          <atomic-button value="font-color: #fff" color="purple" font-color="#fff"></atomic-button>
         </div>
         <div class="ex-btn">
-          <p>color="purple" font-color="#fff"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="font-color: #fff" color="purple" font-color="#fff"&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
@@ -80,7 +105,11 @@
           <atomic-button value="Border Radius" border-radius="30px"></atomic-button>
         </div>
         <div class="ex-btn">
-          <p>border-radius="30px"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="Border Radius" border-radius="30px"&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
@@ -89,16 +118,18 @@
           <h4>Width</h4>
         </div>
         <div class="esp container align-items-center">
-          <atomic-button value="Width 300px" width="300px"></atomic-button>
+          <atomic-button value="Width: 300px" width="300px"></atomic-button>
         </div>
         <div class="ex-btn">
-          <p>width="300px"</p>
+          <pre>
+    <code class="html">
+&lt; atomic-button value="Width: 300px" width="300px"&gt;
+    </code>
+  </pre>
         </div>
       </div>
 
     </div>
-
-
 
     <div class="table">
       <table>
@@ -206,7 +237,7 @@ export default {
 
 <style lang="scss" scoped>
 .ex-btn {
-  padding-bottom: 100px
+    padding-bottom: 100px;
 }
 .esp {
     margin-bottom: 10px;
@@ -226,13 +257,12 @@ tr:nth-child(even) {
     background-color: #ddd;
 }
 .table {
-  width: 1200px;
-  max-width: 100%;
-  overflow-x: scroll;
+    width: 1200px;
+    max-width: 100%;
+    overflow-x: scroll;
 }
 table,
-tr,
+td,
 th,
-td {
-}
+tr {}
 </style>
