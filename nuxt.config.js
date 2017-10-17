@@ -1,4 +1,7 @@
 module.exports = {
+  router: {
+    base: '/atomic-styleguide/'
+  },
   css: [
     'node_modules/the-grid-flexbox/css/the-grid.min.css'
   ],
